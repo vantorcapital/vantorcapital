@@ -91,7 +91,7 @@ export function Home() {
                   </p>
                   <Link
                     to={cell.to}
-                    className="font-sans text-[14px] font-600 text-white bg-navy px-5 py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 self-start"
+                    className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all"
                   >
                     {t(cell.ctaKey)} →
                   </Link>
