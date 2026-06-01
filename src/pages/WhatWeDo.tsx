@@ -83,6 +83,12 @@ export function WhatWeDo() {
         </div>
       </div>
 
+      <div className="px-6 md:px-16 pb-20 md:pb-28">
+        <div className="max-w-[900px] mx-auto">
+          <img src="/museo_mex.jpeg" alt="" className="w-full h-auto block" />
+        </div>
+      </div>
+
     </div>
   );
 }
