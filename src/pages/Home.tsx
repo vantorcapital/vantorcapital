@@ -56,7 +56,7 @@ export function Home() {
       {/* SECTION 2: HERO IMAGE */}
       <div className="w-full bg-white">
         <img
-          src="/Brickell_Skyline copy copy.jpeg"
+          src="/Brickell_Skyline copy copy copy.jpeg"
           alt={t('home_hero_image_alt')}
           className="w-full h-auto block"
           style={{ maxHeight: '640px', objectFit: 'contain', objectPosition: 'center' }}
