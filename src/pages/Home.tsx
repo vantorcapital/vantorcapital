@@ -111,7 +111,7 @@ export function Home() {
           className="w-full h-auto block"
           style={{ maxHeight: '640px', objectFit: 'contain', objectPosition: 'center' }}
         />
-        <p className="text-center font-sans tracking-[0.3em] uppercase text-white py-3 select-none" style={{ fontSize: '10px', color: '#f5f5f5' }}>
+        <p className="text-center font-sans tracking-[0.3em] uppercase text-white py-3 select-none" style={{ fontSize: '10px', color: '#ffffff' }}>
           Vantor Global Capital
         </p>
       </div>
