@@ -41,10 +41,7 @@ export function Home() {
                 <p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.75] mb-5">
                   {t('home_hero_p1')}
                 </p>
-                <p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.75] mb-8">
-                  {t('home_hero_p2')}
-                </p>
-                <Link
+<Link
                   to="/contact"
                   className="inline-block font-sans text-[14px] font-600 text-white bg-navy px-7 py-3 hover:bg-navy-deep transition-colors self-start"
                 >

@@ -32,10 +32,6 @@ export const translations = {
     en: "To move capital and structure decisions across the United States and Latin America, you need a firm that acts at the speed the moment requires.",
     es: "Para mover capital y estructurar decisiones entre Estados Unidos y América Latina, necesitas una firma que actúe a la velocidad que el momento exige."
   },
-  home_hero_p2: {
-    en: "Vantor Global Capital invests its own capital and advises others on how to deploy theirs, working with the companies, families, and investors making serious financial decisions across two markets.",
-    es: "Vantor Global Capital invierte capital propio y asesora a otros sobre cómo desplegar el suyo, trabajando con las empresas, familias e inversionistas que toman decisiones financieras serias entre dos mercados."
-  },
   home_hero_image_alt: { en: "Miami aerial", es: "Vista aérea de Miami" },
 
   // ===== HOME — EMPOWERING YOU =====
