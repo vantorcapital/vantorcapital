@@ -154,14 +154,7 @@ export function Footer() {
 
           {/* Bottom bar */}
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-5">
-            <Link to="/" className="flex items-center">
-              <img
-                src="/Vanitor_global_capital_Horizontal.png"
-                alt={t('nav_logo_alt')}
-                className="h-7 w-auto opacity-70 hover:opacity-100 transition-opacity"
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
-            </Link>
+            <Link to="/" className="flex items-center" />
             <button
               type="button"
               onClick={() => { resetLanguage(); navigate('/'); }}
