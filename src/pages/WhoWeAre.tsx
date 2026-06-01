@@ -77,7 +77,7 @@ export function WhoWeAre() {
       <div className="bg-white px-6 md:px-16 py-12">
         <div className="max-w-[1100px] mx-auto">
           <img
-            src="/philosopy.jpeg"
+            src="/Jesus.jpeg"
             alt="Philosophy"
             className="w-full h-auto block rounded-sm"
           />
