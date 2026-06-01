@@ -127,12 +127,12 @@ export function WhoWeAre() {
           <FadeIn>
             <div className="flex flex-col md:flex-row gap-12 md:gap-16">
               <div className="w-full md:w-[40%]">
-                <div
-                  className="bg-rule flex items-center justify-center"
-                  style={{ aspectRatio: '4/5', width: '100%' }}
-                >
-                  <span className="font-sans text-[13px] text-muted">{t('who_founder_placeholder')}</span>
-                </div>
+                <img
+                  src="/serious.jpg"
+                  alt="Founder"
+                  className="w-full h-auto block"
+                  style={{ aspectRatio: '4/5', objectFit: 'cover' }}
+                />
               </div>
               <div className="w-full md:w-[55%]">
                 <p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.8]">
