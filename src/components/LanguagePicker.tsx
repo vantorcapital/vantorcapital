@@ -38,7 +38,7 @@ export function LanguagePicker() {
             <button
               type="button"
               onClick={() => setLanguage('en')}
-              className="font-sans text-[14px] font-600 text-navy hover:opacity-60 transition-opacity duration-200"
+              className="font-sans text-[14px] font-600 text-white bg-navy px-5 py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2"
             >
               Continue in English →
             </button>
@@ -62,7 +62,7 @@ export function LanguagePicker() {
             <button
               type="button"
               onClick={() => setLanguage('es')}
-              className="font-sans text-[14px] font-600 text-navy hover:opacity-60 transition-opacity duration-200"
+              className="font-sans text-[14px] font-600 text-white bg-navy px-5 py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2"
             >
               Continuar en español →
             </button>
