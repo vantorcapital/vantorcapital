@@ -73,6 +73,17 @@ export function WhoWeAre() {
         </div>
       </div>
 
+      {/* Section 3.5: Philosophy image */}
+      <div className="bg-white px-6 md:px-16 py-12">
+        <div className="max-w-[1100px] mx-auto">
+          <img
+            src="/philosopy.jpeg"
+            alt="Philosophy"
+            className="w-full h-auto block rounded-sm"
+          />
+        </div>
+      </div>
+
       {/* Section 4: Philosophy and values */}
       <div className="bg-cream py-24 md:py-32 px-6 md:px-16">
         <div className="max-w-[1100px] mx-auto">
