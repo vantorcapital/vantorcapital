@@ -35,7 +35,7 @@ export function HowWeThink() {
         </div>
       </div>
 
-      <img src="/mountain_guy.jpeg" alt="" className="w-full h-auto block" />
+      <img src="/mountain_guy copy.jpeg" alt="" className="w-full h-auto block" />
 
       <div className="py-20 md:py-28 px-6 md:px-16">
         <div className="max-w-[900px] mx-auto">
