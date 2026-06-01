@@ -106,7 +106,7 @@ export function Home() {
       {/* SECTION 4: MIDTOWN IMAGE */}
       <div className="w-full bg-white">
         <img
-          src="/Midtown_Miami.jpeg"
+          src="/Midtown_Miami copy.jpeg"
           alt="Midtown Miami aerial"
           className="w-full h-auto block"
           style={{ maxHeight: '640px', objectFit: 'contain', objectPosition: 'center' }}
