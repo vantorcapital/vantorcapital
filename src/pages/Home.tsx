@@ -109,7 +109,7 @@ export function Home() {
           src="/Midtown_Miami.jpeg"
           alt="Midtown Miami aerial"
           className="w-full h-auto block"
-          style={{ maxHeight: '640px', objectFit: 'cover', objectPosition: 'center' }}
+          style={{ maxHeight: '640px', objectFit: 'contain', objectPosition: 'center' }}
         />
       </div>
 
