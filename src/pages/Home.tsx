@@ -38,7 +38,10 @@ export function Home() {
                 </h1>
               </div>
               <div className="w-full md:w-[45%] flex flex-col justify-start pt-0">
-<p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.75] mb-8">
+                <p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.75] mb-5">
+                  {t('home_hero_p1')}
+                </p>
+                <p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.75] mb-8">
                   {t('home_hero_p2')}
                 </p>
                 <Link
@@ -91,7 +94,7 @@ export function Home() {
                   </p>
                   <Link
                     to={cell.to}
-                    className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all"
+                    className="font-sans text-[14px] font-600 text-white bg-navy px-5 py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 self-start"
                   >
                     {t(cell.ctaKey)} →
                   </Link>
