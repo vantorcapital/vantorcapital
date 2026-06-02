@@ -41,7 +41,7 @@ export function WhoWeWorkWith() {
 
       <div className="px-8 md:px-20 mb-0">
         <img
-          src="/mountain_guy copy copy.jpeg"
+          src="/horses copy.jpeg"
           alt={t('clients_image_alt')}
           className="w-full h-auto block mx-auto max-w-5xl"
         />
