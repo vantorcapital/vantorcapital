@@ -35,6 +35,6 @@ export const articles: Article[] = [
       en: "Vantor was founded on the belief that the financial institutions serving the United States and Latin America have not kept pace with the relationship between them. This is where we share what we are seeing, what we are underwriting, and what we are learning.\n\nWe will write about real estate, about capital flows, about cross-border business formation, and about the families and operators building between two markets. The posture will be practical.\n\nNew notes will appear here as we publish them. Subscribe below if you would like them in your inbox.",
       es: "Vantor fue fundada sobre la creencia de que las instituciones financieras que sirven a Estados Unidos y América Latina no han mantenido el ritmo de la relación entre ambos. Aquí compartimos lo que estamos viendo, lo que estamos analizando, y lo que estamos aprendiendo.\n\nEscribiremos sobre bienes raíces, sobre flujos de capital, sobre formación de empresas transfronterizas, y sobre las familias y operadores que construyen entre dos mercados. La postura será práctica.\n\nLas nuevas notas aparecerán aquí a medida que las publiquemos. Suscríbete a continuación si quieres recibirlas en tu correo."
     },
-    image: "/green copy copy.jpeg"
+    image: "/green%20copy%20copy.jpeg"
   }
 ];

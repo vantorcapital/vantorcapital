@@ -36,7 +36,7 @@ export function WhatWeDo() {
       </div>
 
       <img
-        src="/plant copy copy.jpeg"
+        src="/plant%20copy%20copy.jpeg"
         alt={t('what_image_alt')}
         className="w-full h-auto block"
       />
@@ -60,7 +60,7 @@ export function WhatWeDo() {
 
       <div className="px-6 md:px-16 pb-20 md:pb-28">
         <div className="max-w-[900px] mx-auto">
-          <img src="/woman_thinking copy.jpeg" alt="" className="w-full h-auto block" />
+          <img src="/woman_thinking%20copy.jpeg" alt="" className="w-full h-auto block" />
         </div>
       </div>
 
