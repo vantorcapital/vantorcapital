@@ -91,6 +91,13 @@ export function VantorView() {
         </div>
       </div>
 
+      {/* Hero image */}
+      <div className="px-6 md:px-16 pb-16 md:pb-20">
+        <div className="max-w-[1100px] mx-auto">
+          <img src="/mountain_sunset.jpeg" alt="" className="w-full h-auto block" />
+        </div>
+      </div>
+
       {/* Subscribe band */}
       <div className="bg-light-blue py-20 md:py-28 px-6 md:px-16">
         <div className="max-w-[1100px] mx-auto">
