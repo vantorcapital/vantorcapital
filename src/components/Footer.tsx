@@ -1,6 +1,82 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from '../i18n/LanguageContext';
 import type { Language } from '../i18n/translations';
+
+const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwulHT2v3gZleMxhxRi0j03hPg-Vt6ZZfNZXr9Wqc1kpMZXHAh73cy-__QyODHcnwTU4w/exec';
+
+type FormStatus = 'idle' | 'submitting' | 'success';
+
+function NewsletterBand() {
+  const { t } = useTranslation();
+  const [email, setEmail] = useState('');
+  const [honeypot, setHoneypot] = useState('');
+  const [status, setStatus] = useState<FormStatus>('idle');
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (honeypot) { setStatus('success'); return; }
+    setStatus('submitting');
+    const payload = { email, source: 'subscribe', website_hp: honeypot, type: 'Subscriber' };
+    try {
+      await fetch(FORM_ENDPOINT, { method: 'POST', body: JSON.stringify(payload) });
+    } catch { /* fall through */ }
+    setStatus('success');
+  }
+
+  return (
+    <div className="bg-light-blue py-20 md:py-28 px-6 md:px-10">
+      <div className="max-w-[1440px] mx-auto">
+        <div className="flex flex-col md:flex-row gap-12 md:gap-20 md:items-center">
+          <div className="w-full md:w-[52%]">
+            <span className="font-sans text-[11px] font-700 tracking-[0.2em] text-navy uppercase">
+              {t('view_subscribe_label')}
+            </span>
+            <div className="w-10 h-0.5 bg-navy mt-3 mb-8" />
+            <h2 className="font-serif text-[36px] md:text-[48px] font-400 text-navy leading-[1.05] tracking-[-0.01em] mb-5">
+              {t('view_subscribe_h2')}
+            </h2>
+            <p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.75] mb-8">
+              {t('view_subscribe_body')}
+            </p>
+            {status === 'success' ? (
+              <p className="font-serif italic text-[18px] text-navy">{t('view_subscribe_success')}</p>
+            ) : (
+              <form onSubmit={handleSubmit} noValidate className="space-y-4">
+                <input type="text" name="website_hp" value={honeypot} onChange={(e) => setHoneypot(e.target.value)} className="sr-only" tabIndex={-1} autoComplete="off" />
+                <div className="flex flex-col sm:flex-row gap-3 items-start">
+                  <input
+                    type="email"
+                    required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder={t('view_subscribe_placeholder')}
+                    className="flex-1 border-b border-navy bg-transparent font-sans text-[15px] text-ink py-2 focus:outline-none focus:border-blue transition-colors placeholder:text-muted"
+                  />
+                  <button
+                    type="submit"
+                    disabled={status === 'submitting'}
+                    className="shrink-0 font-sans text-[14px] font-600 text-white bg-navy px-6 py-2.5 hover:bg-navy-deep transition-colors disabled:opacity-50"
+                  >
+                    {status === 'submitting' ? t('cta_sending') : `${t('cta_subscribe')} →`}
+                  </button>
+                </div>
+                <p className="font-sans text-[12px] text-muted leading-relaxed">{t('view_subscribe_privacy')}</p>
+              </form>
+            )}
+          </div>
+          <div className="hidden md:block w-full md:w-[44%] aspect-[4/3] overflow-hidden">
+            <img
+              src="https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function FooterLanguageToggle() {
   const { language, setLanguage, t } = useTranslation();
@@ -32,6 +108,9 @@ function FooterLanguageToggle() {
 export function Footer() {
   const { t, resetLanguage } = useTranslation();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const hideNewsletter = location.pathname.startsWith('/the-vantor-view');
 
   const learnLinks = [
     { key: 'nav_who_we_are',   to: '/who-we-are' },
@@ -51,6 +130,9 @@ export function Footer() {
 
   return (
     <footer>
+      {/* Newsletter band — shown on all pages except The Vantor View */}
+      {!hideNewsletter && <NewsletterBand />}
+
       {/* Fraud band */}
       <div className="bg-[#3d4a56] px-6 md:px-10 py-16 md:py-20">
         <div className="max-w-[1440px] mx-auto">
