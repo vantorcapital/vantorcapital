@@ -17,9 +17,9 @@ export function WhoWeWorkWith() {
   const { t } = useTranslation();
 
   const clients = [
-    { titleKey: 'clients_1_title', bodyKey: 'clients_1_body' },
-    { titleKey: 'clients_2_title', bodyKey: 'clients_2_body' },
-    { titleKey: 'clients_3_title', bodyKey: 'clients_3_body' },
+    { titleKey: 'clients_1_title', bodyKey: 'clients_1_body', image: '/businesses.jpeg' },
+    { titleKey: 'clients_2_title', bodyKey: 'clients_2_body', image: '/families.jpeg' },
+    { titleKey: 'clients_3_title', bodyKey: 'clients_3_body', image: null },
   ] as const;
 
   return (
@@ -58,9 +58,20 @@ export function WhoWeWorkWith() {
                 <p className="font-sans text-[15px] md:text-[16px] text-ink leading-[1.8]">
                   {t(client.bodyKey)}
                 </p>
+                {client.image && (
+                  <div className="mt-8 flex justify-center">
+                    <img src={client.image} alt="" className="h-auto block max-w-[520px] w-full" />
+                  </div>
+                )}
               </div>
             </FadeIn>
           ))}
+        </div>
+      </div>
+
+      <div className="px-6 md:px-16 pb-20 md:pb-28">
+        <div className="max-w-[900px] mx-auto flex justify-center">
+          <img src="/investors.jpeg" alt="" className="h-auto block max-w-[520px] w-full" />
         </div>
       </div>
 
