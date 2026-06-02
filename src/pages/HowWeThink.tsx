@@ -54,7 +54,7 @@ export function HowWeThink() {
       <div className="pb-32 md:pb-40 px-6 md:px-16">
         <div className="max-w-[900px] mx-auto">
           <FadeIn>
-            <img src="/art copy copy.jpeg" alt="" className="w-full h-auto block" />
+            <img src="/mountain_guy copy copy copy copy.jpeg" alt="" className="w-full h-auto block" />
           </FadeIn>
         </div>
       </div>
