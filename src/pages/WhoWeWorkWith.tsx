@@ -43,7 +43,7 @@ export function WhoWeWorkWith() {
         <img
           src="/shrooms copy copy.jpeg"
           alt={t('clients_image_alt')}
-          className="w-full h-auto block mx-auto max-w-5xl"
+          className="w-full h-auto block mx-auto max-w-sm"
         />
       </div>
 
