@@ -65,11 +65,11 @@ function NewsletterBand() {
               </form>
             )}
           </div>
-          <div className="w-full md:w-[44%] aspect-[4/3] overflow-hidden mt-4 md:mt-0">
+          <div className="w-full md:w-[44%] mt-4 md:mt-0">
             <img
               src="/shrooms copy.jpeg"
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-auto block"
             />
           </div>
         </div>
