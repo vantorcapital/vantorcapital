@@ -81,7 +81,7 @@ export function Home() {
           </FadeIn>
 
           <div className="mb-12 flex justify-center">
-            <img src="/man_and_kid.jpeg" alt="" className="w-full h-auto block max-w-[820px]" />
+            <img src="/man_and_kid%20copy.jpeg" alt="" className="w-full h-auto block max-w-[820px]" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-16">
