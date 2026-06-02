@@ -75,6 +75,12 @@ export function VantorViewArticle() {
             </div>
           </FadeIn>
 
+          {article.image && (
+            <div className="mb-10">
+              <img src={article.image} alt="" className="w-full h-auto block" />
+            </div>
+          )}
+
           <div className="border-t border-rule pt-6 mb-4">
             <p className="font-sans text-[11px] text-muted leading-relaxed">
               {t('article_disclaimer')}
