@@ -39,14 +39,6 @@ export function WhoWeWorkWith() {
         </div>
       </div>
 
-      <div className="px-8 md:px-20 mb-0">
-        <img
-          src="/shrooms copy copy.jpeg"
-          alt={t('clients_image_alt')}
-          className="w-full h-auto block mx-auto max-w-sm"
-        />
-      </div>
-
       <div className="px-6 md:px-16 pb-16 md:pb-24 pt-4">
         <div className="max-w-[900px] mx-auto">
           {clients.map((client) => (
