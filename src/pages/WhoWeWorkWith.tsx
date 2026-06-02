@@ -50,9 +50,15 @@ export function WhoWeWorkWith() {
                 <p className="font-sans text-[15px] md:text-[16px] text-ink leading-[1.8]">
                   {t(client.bodyKey)}
                 </p>
-                {client.image && (
+                {client.image ? (
                   <div className="mt-8 flex justify-center">
                     <img src={client.image} alt="" className="h-auto block max-w-[520px] w-full" />
+                  </div>
+                ) : (
+                  <div className="mt-8 flex justify-center">
+                    <div className="max-w-[520px] w-full aspect-[4/3] bg-gray-100 border-2 border-dashed border-gray-300 flex items-center justify-center">
+                      <span className="font-sans text-[13px] text-gray-400 tracking-[0.1em] uppercase">Image Placeholder</span>
+                    </div>
                   </div>
                 )}
               </div>
