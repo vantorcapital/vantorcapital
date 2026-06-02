@@ -18,62 +18,62 @@ export function LanguagePicker() {
         </div>
         <div className="w-8 h-0.5 bg-navy mb-4 md:mb-6" />
 
-        {/* Columns — on mobile stacked, on desktop side by side with subgrid rows */}
-        <div className="grid grid-cols-1 md:grid-cols-2 md:divide-x md:divide-ink/10 gap-6 md:gap-0 md:items-stretch">
+        {/* Mobile: stacked. Desktop: two columns */}
+        <div className="flex flex-col md:grid md:grid-cols-2 md:divide-x md:divide-ink/10 gap-6 md:gap-0">
 
           {/* English column */}
-          <div className="flex flex-col md:pr-10">
+          <div className="md:pr-10">
             <h1
               id="picker-title"
               className="font-serif text-[28px] md:text-[42px] font-400 text-navy leading-[1.1] mb-3 md:mb-6"
             >
               Choose your language.
             </h1>
-            <div className="border-t-2 border-navy pt-3 md:pt-5 flex flex-col flex-1">
+            <div className="border-t-2 border-navy pt-3 md:pt-5">
               <div className="font-sans text-[10px] font-600 text-ink/50 tracking-[0.15em] uppercase mb-2">
                 English
               </div>
-              <p className="font-sans text-[13px] md:text-[15px] text-ink leading-[1.6] mb-4 md:mb-6 flex-1">
+              <p className="font-sans text-[13px] md:text-[15px] text-ink leading-[1.6] mb-4 md:mb-6">
                 Vantor Global Capital works across the United States and Latin America. Choose the language you would like to read the site in. We will remember your choice for 90 days.
               </p>
               <button
                 type="button"
                 onClick={() => setLanguage('en')}
-                className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 self-start mb-3 md:mb-5"
+                className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2"
               >
                 Continue in English →
               </button>
-              <p className="font-sans text-[10px] text-ink/40 leading-relaxed">
+              <p className="font-sans text-[10px] text-ink/40 leading-relaxed mt-3 md:mt-5">
                 This website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security.
               </p>
             </div>
           </div>
 
-          {/* Mobile divider */}
-          <div className="block md:hidden h-px bg-ink/10 -mt-2" />
+          {/* Divider on mobile */}
+          <div className="block md:hidden h-px bg-ink/10" />
 
           {/* Spanish column */}
-          <div className="flex flex-col md:pl-10">
+          <div className="md:pl-10">
             <h2
               className="font-serif text-[28px] md:text-[42px] font-400 text-navy leading-[1.1] mb-3 md:mb-6"
             >
               Elige tu idioma.
             </h2>
-            <div className="border-t-2 border-navy pt-3 md:pt-5 flex flex-col flex-1">
+            <div className="border-t-2 border-navy pt-3 md:pt-5">
               <div className="font-sans text-[10px] font-600 text-ink/50 tracking-[0.15em] uppercase mb-2">
                 Español
               </div>
-              <p className="font-sans text-[13px] md:text-[15px] text-ink leading-[1.6] mb-4 md:mb-6 flex-1">
+              <p className="font-sans text-[13px] md:text-[15px] text-ink leading-[1.6] mb-4 md:mb-6">
                 Vantor Global Capital trabaja entre Estados Unidos y América Latina. Elige el idioma en el que prefieres leer el sitio. Recordaremos tu elección durante 90 días.
               </p>
               <button
                 type="button"
                 onClick={() => setLanguage('es')}
-                className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 self-start mb-3 md:mb-5"
+                className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2"
               >
                 Continuar en español →
               </button>
-              <p className="font-sans text-[10px] text-ink/40 leading-relaxed">
+              <p className="font-sans text-[10px] text-ink/40 leading-relaxed mt-3 md:mt-5">
                 Este sitio web tiene fines informativos únicamente y no constituye una oferta de venta ni una solicitud de oferta de compra de valor alguno.
               </p>
             </div>
