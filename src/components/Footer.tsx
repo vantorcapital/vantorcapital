@@ -67,7 +67,7 @@ function NewsletterBand() {
           </div>
           <div className="w-full md:w-[44%] mt-4 md:mt-0">
             <img
-              src="/art%20copy%20copy%20copy%20copy.jpeg"
+            src="/art.jpg"
               alt=""
               className="w-full h-auto block"
             />

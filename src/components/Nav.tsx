@@ -34,7 +34,7 @@ export function Nav() {
                 onClick={() => setMobileOpen(false)}
               >
                 <img
-                  src="/Vanitor_global_capital_Horizontal.png"
+                  src="/vantor-logo-horizontal.png"
                   alt={t('nav_logo_alt')}
                   className="h-16 md:h-20 w-auto"
                   style={{ filter: 'brightness(0) invert(1)' }}
