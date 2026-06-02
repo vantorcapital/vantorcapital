@@ -73,7 +73,7 @@ export function Nav() {
 
         <div className="bg-[#141f2b] border-b border-white/10">
           <div className="max-w-[1440px] mx-auto px-6 md:px-10">
-            <p className="font-sans text-[12px] font-400 text-white/40 py-[7px] leading-none">
+            <p className="font-sans text-[12px] font-400 text-white py-[7px] leading-none">
               {t('nav_risk_strip')}
             </p>
           </div>
