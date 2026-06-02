@@ -43,6 +43,7 @@ export function Home() {
                 </p>
 <Link
                   to="/contact"
+                  onClick={() => window.scrollTo(0, 0)}
                   className="inline-block font-sans text-[14px] font-600 text-white bg-navy px-7 py-3 hover:bg-navy-deep transition-colors self-start"
                 >
                   {t('cta_begin_conversation')} →
@@ -95,6 +96,7 @@ export function Home() {
                   </p>
                   <Link
                     to={cell.to}
+                    onClick={() => window.scrollTo(0, 0)}
                     className="font-sans text-[14px] font-600 text-white bg-navy px-5 py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 self-start"
                   >
                     {t(cell.ctaKey)} →

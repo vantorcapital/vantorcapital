@@ -42,6 +42,9 @@ export function LanguagePicker() {
             >
               Continue in English →
             </button>
+            <p className="font-sans text-[11px] text-ink/40 leading-relaxed mt-6">
+              This website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security.
+            </p>
             </div>
           </div>
 
@@ -66,6 +69,9 @@ export function LanguagePicker() {
             >
               Continuar en español →
             </button>
+            <p className="font-sans text-[11px] text-ink/40 leading-relaxed mt-6">
+              Este sitio web tiene fines informativos únicamente y no constituye una oferta de venta ni una solicitud de oferta de compra de valor alguno.
+            </p>
             </div>
           </div>
         </div>

@@ -149,6 +149,7 @@ export function Footer() {
           </div>
           <Link
             to="/contact"
+            onClick={() => window.scrollTo(0, 0)}
             className="font-sans text-[14px] font-600 text-white hover:text-white/65 transition-colors"
           >
             {t('cta_contact_us_directly')} →
@@ -171,6 +172,7 @@ export function Footer() {
                   <Link
                     key={l.to}
                     to={l.to}
+                    onClick={() => window.scrollTo(0, 0)}
                     className="font-sans text-[14px] font-600 text-white hover:text-white/65 transition-colors"
                   >
                     {t(l.key)}
