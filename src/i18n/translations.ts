@@ -70,7 +70,7 @@ export const translations = {
   who_about_h1:     { en: "About us",       es: "Acerca de nosotros" },
   who_about_body: {
     en: "Vantor Global Capital is a Miami firm working across the United States and Latin America. We invest our own capital and advise others on theirs, with the discipline of an institution and the fluency of someone who knows both markets firsthand.",
-    es: "Vantor Global Capital es una firma de Miami que trabaja entre Estados Unidos y América Latina. Invertimos capital propio y asesoramos a otros sobre el suyo, con la disciplina de una institución y la fluidez de quien conoce ambos mercados de primera mano."
+    es: "Vantor Global Capital es una compañía americana que trabaja con Estados Unidos y America Latina. Invertimos capital propio y asesoramos a otros sobre el suyo, con la disciplina de una institución y la fluidez de quien conoce ambos mercados de primera mano."
   },
   who_image_alt:    { en: "Miami skyline with palm trees", es: "Horizonte de Miami con palmeras" },
 
