@@ -52,7 +52,6 @@ export function WhatWeDo() {
               {t('what_p1_h2')}
             </h2>
             <div className="space-y-5">
-              <p className="font-sans text-[15px] md:text-[16px] text-ink leading-[1.8]">{t('what_p1_body1')}</p>
               <p className="font-sans text-[15px] md:text-[16px] text-ink leading-[1.8]">{t('what_p1_body2')}</p>
             </div>
           </FadeIn>
@@ -76,7 +75,6 @@ export function WhatWeDo() {
               {t('what_p2_h2')}
             </h2>
             <div className="space-y-5">
-              <p className="font-sans text-[15px] md:text-[16px] text-ink leading-[1.8]">{t('what_p2_body1')}</p>
               <p className="font-sans text-[15px] md:text-[16px] text-ink leading-[1.8]">{t('what_p2_body2')}</p>
             </div>
           </FadeIn>
