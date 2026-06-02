@@ -54,9 +54,7 @@ export function HowWeThink() {
       <div className="pb-32 md:pb-40 px-6 md:px-16">
         <div className="max-w-[900px] mx-auto">
           <FadeIn>
-            <p className="font-serif italic text-[28px] md:text-[32px] font-400 text-navy leading-snug text-center">
-              {t('how_closer')}
-            </p>
+            <img src="/art copy copy.jpeg" alt="" className="w-full h-auto block" />
           </FadeIn>
         </div>
       </div>
