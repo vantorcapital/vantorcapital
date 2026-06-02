@@ -65,9 +65,9 @@ function NewsletterBand() {
               </form>
             )}
           </div>
-          <div className="hidden md:block w-full md:w-[44%] aspect-[4/3] overflow-hidden">
+          <div className="w-full md:w-[44%] aspect-[4/3] overflow-hidden mt-4 md:mt-0">
             <img
-              src="https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/shrooms copy.jpeg"
               alt=""
               className="w-full h-full object-cover"
             />
@@ -110,7 +110,7 @@ export function Footer() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const hideNewsletter = location.pathname.startsWith('/the-vantor-view');
+  const hideNewsletter = location.pathname.startsWith('/the-vantor-view') || location.pathname.startsWith('/legal');
 
   const learnLinks = [
     { key: 'nav_who_we_are',   to: '/who-we-are' },
