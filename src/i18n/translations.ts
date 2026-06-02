@@ -79,8 +79,8 @@ export const translations = {
     es: "Dos mercados, como si fueran uno."
   },
   who_two_markets_body: {
-    en: "Vantor is a Miami firm with roots in both the United States and Mexico. The flow of capital, talent, and ambition between these countries is deep and growing, and most institutions still treat it as an afterthought. We bring the discipline of an institution to the relationship they overlook, working the way our clients already live: across two markets, as though they were one.",
-    es: "Vantor es una firma de Miami con raíces en Estados Unidos y México. El flujo de capital, talento y ambición entre estos países es profundo y creciente, y la mayoría de las instituciones lo siguen tratando como algo secundario. Aportamos la disciplina de una institución a la relación que ellos pasan por alto, trabajando como nuestros clientes ya viven: entre dos mercados, como si fueran uno."
+    en: "Vantor is a Miami firm with roots in both the United States and Mexico. We bring the discipline of an institution to the relationship they overlook, working the way our clients already live: across two markets, as though they were one.",
+    es: "Vantor es una firma de Miami con raíces en Estados Unidos y México. Aportamos la disciplina de una institución a la relación que ellos pasan por alto, trabajando como nuestros clientes ya viven: entre dos mercados, como si fueran uno."
   },
 
   who_philosophy_h2: {
