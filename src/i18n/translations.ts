@@ -29,8 +29,8 @@ export const translations = {
   // ===== HOME — HERO =====
   home_hero_title: { en: "Imagine the Future.", es: "Imagina el futuro." },
   home_hero_p1: {
-    en: "To move capital and structure decisions across the United States and Latin America, you need a firm that acts at the speed the moment requires.",
-    es: "Para mover capital y estructurar decisiones entre Estados Unidos y América Latina, necesitas una firma que actúe a la velocidad que el momento exige."
+    en: "Investment and advisory across the Americas.",
+    es: "Inversión y asesoría en todo el continente americano."
   },
   home_hero_image_alt: { en: "Miami aerial", es: "Vista aérea de Miami" },
 
