@@ -37,7 +37,7 @@ export function Home() {
                   {t('home_hero_title')}
                 </h1>
               </div>
-              <div className="w-full md:w-[45%] flex flex-col justify-start pt-0">
+              <div className="w-full md:w-[45%] flex flex-col justify-start pt-0 md:pt-10">
                 <p className="font-sans text-[16px] md:text-[17px] text-ink leading-[1.75] mb-5">
                   {t('home_hero_p1')}
                 </p>
