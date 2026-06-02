@@ -95,7 +95,7 @@ export const translations = {
   who_value1_title: { en: "Skin in the game.", es: "Capital propio en cada decisión." },
   who_value1_body: {
     en: "We invest our own capital in every transaction. If the work is not worth our own balance sheet, it is not worth a client's.",
-    es: "Invertimos capital propio en cada transacción. Si el trabajo no merece nuestro propio balance, tampoco merece el de un cliente."
+    es: "Invertimos capital propio en cada transacción. Si el trabajo no merece nuestro propio capital, tampoco merece el de un cliente."
   },
 
   who_value2_title: { en: "Clients first.", es: "Clientes primero." },
