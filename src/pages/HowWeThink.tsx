@@ -35,7 +35,7 @@ export function HowWeThink() {
         </div>
       </div>
 
-      <img src="/horses.jpg" alt="" className="w-full h-auto block" />
+      <img src="/horses%20copy%20copy.jpeg" alt="" className="w-full h-auto block" />
 
       <div className="py-20 md:py-28 px-6 md:px-16">
         <div className="max-w-[900px] mx-auto">
@@ -54,7 +54,7 @@ export function HowWeThink() {
       <div className="pb-32 md:pb-40 px-6 md:px-16">
         <div className="max-w-[900px] mx-auto">
           <FadeIn>
-            <img src="/mountain-guy.jpg" alt="" className="w-full h-auto block" />
+            <img src="/mountain_guy%20copy%20copy%20copy%20copy%20copy.jpeg" alt="" className="w-full h-auto block" />
           </FadeIn>
         </div>
       </div>

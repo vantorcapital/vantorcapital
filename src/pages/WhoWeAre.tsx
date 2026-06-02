@@ -49,7 +49,7 @@ export function WhoWeAre() {
       {/* Section 2: Hero image */}
       <div className="w-full px-0">
         <img
-          src="/palm-trees.jpg"
+          src="/palm_trees.jpeg"
           alt={t('who_image_alt')}
           className="w-full h-auto block"
         />
@@ -77,7 +77,7 @@ export function WhoWeAre() {
       <div className="bg-white px-6 md:px-16 py-12">
         <div className="max-w-[1100px] mx-auto">
           <img
-            src="/jesus.jpg"
+            src="/Jesus.jpeg"
             alt="Philosophy"
             className="w-full h-auto block rounded-sm"
           />

@@ -57,7 +57,7 @@ export function Home() {
       {/* SECTION 2: HERO IMAGE */}
       <div className="w-full bg-white">
         <img
-          src="/brickell-skyline.jpg"
+          src="/Brickell_Skyline%20copy%20copy%20copy%20copy.jpeg"
           alt={t('home_hero_image_alt')}
           className="w-full h-auto block"
           style={{ maxHeight: '640px', objectFit: 'contain', objectPosition: 'center' }}
@@ -81,7 +81,7 @@ export function Home() {
           </FadeIn>
 
           <div className="mb-12 flex justify-center">
-            <img src="/man-and-kid.jpg" alt="" className="w-full h-auto block max-w-[820px]" />
+            <img src="/man_and_kid%20copy.jpeg" alt="" className="w-full h-auto block max-w-[820px]" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-16">
@@ -112,7 +112,7 @@ export function Home() {
       {/* SECTION 4: MIDTOWN IMAGE */}
       <div className="w-full bg-white">
         <img
-          src="/midtown-miami.jpg"
+          src="/Midtown_Miami%20copy%20copy.jpeg"
           alt="Midtown Miami aerial"
           className="w-full h-auto block"
           style={{ maxHeight: '640px', objectFit: 'contain', objectPosition: 'center' }}

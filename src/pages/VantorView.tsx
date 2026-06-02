@@ -94,7 +94,7 @@ export function VantorView() {
       {/* Hero image */}
       <div className="px-6 md:px-16 pb-16 md:pb-20">
         <div className="max-w-[1100px] mx-auto">
-          <img src="/mountain-sunset.jpg" alt="" className="w-full h-auto block" />
+          <img src="/mountain_sunset.jpeg" alt="" className="w-full h-auto block" />
         </div>
       </div>
 
@@ -117,7 +117,7 @@ export function VantorView() {
                 <SubscribeForm />
               </div>
               <div className="w-full md:w-[45%]">
-                <img src="/art.jpg" alt="" className="w-full h-auto block" />
+                <img src="/art%20copy%20copy%20copy%20copy.jpeg" alt="" className="w-full h-auto block" />
               </div>
             </div>
           </FadeIn>
