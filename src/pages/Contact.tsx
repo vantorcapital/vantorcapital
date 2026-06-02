@@ -76,7 +76,7 @@ function ContactForm() {
         <textarea required rows={4} value={form.message} onChange={(e) => set('message', e.target.value)} className="w-full border-b border-rule bg-transparent font-sans text-[15px] text-ink py-2 focus:outline-none focus:border-navy transition-colors resize-none" />
       </div>
 
-      <button type="submit" disabled={status === 'submitting'} className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all disabled:opacity-50">
+      <button type="submit" disabled={status === 'submitting'} className="font-sans text-[15px] font-600 text-white bg-navy px-8 py-4 hover:bg-navy/90 transition-all disabled:opacity-50">
         {status === 'submitting' ? t('cta_sending') : `${t('cta_send')} →`}
       </button>
 
