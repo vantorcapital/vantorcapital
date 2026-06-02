@@ -110,7 +110,7 @@ export function VantorView() {
                 <SubscribeForm />
               </div>
               <div className="w-full md:w-[45%]">
-                <img src="/art.jpeg" alt="" className="w-full h-auto block" />
+                <img src="/art copy.jpeg" alt="" className="w-full h-auto block" />
               </div>
             </div>
           </FadeIn>
