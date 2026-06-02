@@ -17,8 +17,8 @@ export function WhoWeWorkWith() {
   const { t } = useTranslation();
 
   const clients = [
-    { titleKey: 'clients_1_title', bodyKey: 'clients_1_body', image: '/businesses.jpeg' },
-    { titleKey: 'clients_2_title', bodyKey: 'clients_2_body', image: '/families.jpeg' },
+    { titleKey: 'clients_1_title', bodyKey: 'clients_1_body', image: '/businesses.jpg' },
+    { titleKey: 'clients_2_title', bodyKey: 'clients_2_body', image: '/families.jpg' },
     { titleKey: 'clients_3_title', bodyKey: 'clients_3_body', image: null },
   ] as const;
 
@@ -69,7 +69,7 @@ export function WhoWeWorkWith() {
 
       <div className="px-6 md:px-16 pt-0 pb-20 md:pb-28 -mt-4">
         <div className="max-w-[900px] mx-auto flex justify-center">
-          <img src="/investors.jpeg" alt="" className="h-auto block max-w-[520px] w-full" />
+          <img src="/investors.jpg" alt="" className="h-auto block max-w-[520px] w-full" />
         </div>
       </div>
 
