@@ -38,7 +38,7 @@ export const translations = {
   home_empowering_label: { en: "EMPOWERING YOU", es: "PARA TI" },
   home_empowering_lede: {
     en: "Serious financial thinking, for the people making the decisions.",
-    es: "Pensamiento financiero serio, para las personas que toman las decisiones."
+    es: "Pensamiento financiero para las personas que toman las decisiones."
   },
 
   home_quad_who_title: { en: "Who we are", es: "Quiénes somos" },
