@@ -68,7 +68,7 @@ export function Home() {
         <div className="max-w-[1320px] mx-auto">
 
           <FadeIn>
-            <div className="mb-14">
+            <div className="mb-14 text-center flex flex-col items-center">
               <span className="font-sans text-[13px] md:text-[14px] font-700 text-blue tracking-[0.22em] uppercase">
                 {t('home_empowering_label')}
               </span>
