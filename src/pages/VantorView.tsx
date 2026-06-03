@@ -150,7 +150,6 @@ export function VantorView() {
                   <p className="font-sans text-[12px] text-muted mb-4">{article.readTime[lang]}</p>
                   <Link
                     to={`/the-vantor-view/${article.slug}`}
-                    onClick={() => window.scrollTo(0, 0)}
                     className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all"
                   >
                     {t('cta_read_article')} →

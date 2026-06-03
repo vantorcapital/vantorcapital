@@ -18,7 +18,6 @@ export function Nav() {
 
   function handleLinkClick(to: string) {
     setMobileOpen(false);
-    window.scrollTo(0, 0);
     navigate(to);
   }
 
@@ -46,7 +45,6 @@ export function Nav() {
                   <Link
                     key={item.to}
                     to={item.to}
-                    onClick={() => window.scrollTo(0, 0)}
                     className="font-sans text-[14px] font-400 text-white/70 hover:text-white transition-colors duration-150 whitespace-nowrap"
                   >
                     {t(item.key)}
@@ -57,7 +55,6 @@ export function Nav() {
               <div className="hidden lg:flex items-center ml-auto">
                 <Link
                   to="/contact"
-                  onClick={() => window.scrollTo(0, 0)}
                   className="font-sans text-[14px] font-400 text-white/70 hover:text-white transition-colors duration-150"
                 >
                   {t('nav_contact')}

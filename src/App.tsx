@@ -16,6 +16,7 @@ import { Legal } from './pages/Legal';
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
   useEffect(() => {
+    if (pathname.startsWith('/legal')) return;
     if (hash) {
       setTimeout(() => {
         const el = document.querySelector(hash);

@@ -29,7 +29,7 @@ export function VantorViewArticle() {
       <div className="bg-white pt-36 md:pt-44 pb-24 px-6 md:px-16">
         <div className="max-w-[720px] mx-auto">
           <p className="font-sans text-[15px] text-muted">{t('article_not_found')}</p>
-          <Link to="/the-vantor-view" onClick={() => window.scrollTo(0, 0)} className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all mt-4 inline-block">
+          <Link to="/the-vantor-view" className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all mt-4 inline-block">
             {t('cta_back_to_articles')} →
           </Link>
         </div>
@@ -52,7 +52,6 @@ export function VantorViewArticle() {
             <div className="w-10 h-0.5 bg-navy mt-3 mb-8" />
             <Link
               to="/the-vantor-view"
-              onClick={() => window.scrollTo(0, 0)}
               className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all inline-block mb-10"
             >
               {t('cta_back_to_articles')}
@@ -101,7 +100,6 @@ export function VantorViewArticle() {
                       <h3 className="font-serif text-[20px] font-400 text-navy mb-3 leading-tight">{a.title[lang]}</h3>
                       <Link
                         to={`/the-vantor-view/${a.slug}`}
-                        onClick={() => window.scrollTo(0, 0)}
                         className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all"
                       >
                         {t('cta_read_article')} →
@@ -124,7 +122,6 @@ export function VantorViewArticle() {
                 </p>
                 <Link
                   to="/contact"
-                  onClick={() => window.scrollTo(0, 0)}
                   className="font-sans text-[14px] font-600 text-navy underline decoration-navy/30 hover:decoration-navy transition-all"
                 >
                   {t('cta_sign_up')} →
