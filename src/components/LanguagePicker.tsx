@@ -37,13 +37,15 @@ export function LanguagePicker() {
             <p className="font-sans text-[13px] md:text-[15px] text-ink leading-[1.6] mb-4 md:mb-6">
               Vantor Global Capital works across the United States and Latin America. Choose the language you would like to read the site in. We will remember your choice for 90 days.
             </p>
+            <div>
             <button
               type="button"
               onClick={() => setLanguage('en')}
-              className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 self-start mb-3 md:mb-5"
+              className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 mb-3 md:mb-5"
             >
               Continue in English →
             </button>
+            </div>
             <p className="font-sans text-[10px] text-ink/40 leading-relaxed">
               This website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security.
             </p>
@@ -67,13 +69,15 @@ export function LanguagePicker() {
             <p className="font-sans text-[13px] md:text-[15px] text-ink leading-[1.6] mb-4 md:mb-6">
               Vantor Global Capital trabaja entre Estados Unidos y América Latina. Elige el idioma en el que prefieres leer el sitio. Recordaremos tu elección durante 90 días.
             </p>
+            <div>
             <button
               type="button"
               onClick={() => setLanguage('es')}
-              className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 self-start mb-3 md:mb-5"
+              className="font-sans text-[13px] md:text-[14px] font-600 text-white bg-navy px-4 py-2.5 md:px-5 md:py-3 hover:opacity-80 transition-opacity duration-200 inline-flex items-center gap-2 mb-3 md:mb-5"
             >
               Continuar en español →
             </button>
+            </div>
             <p className="font-sans text-[10px] text-ink/40 leading-relaxed">
               Este sitio web tiene fines informativos únicamente y no constituye una oferta de venta ni una solicitud de oferta de compra de valor alguno.
             </p>
