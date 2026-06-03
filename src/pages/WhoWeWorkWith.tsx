@@ -19,7 +19,7 @@ export function WhoWeWorkWith() {
   const clients = [
     { titleKey: 'clients_1_title', bodyKey: 'clients_1_body', image: '/businesses.jpg' },
     { titleKey: 'clients_2_title', bodyKey: 'clients_2_body', image: '/families.jpg' },
-    { titleKey: 'clients_3_title', bodyKey: 'clients_3_body', image: null },
+    { titleKey: 'clients_3_title', bodyKey: 'clients_3_body', image: '/investors.jpg' },
   ] as const;
 
   return (
@@ -64,12 +64,6 @@ export function WhoWeWorkWith() {
               </div>
             </FadeIn>
           ))}
-        </div>
-      </div>
-
-      <div className="px-6 md:px-16 pt-0 pb-20 md:pb-28 -mt-4">
-        <div className="max-w-[900px] mx-auto flex justify-center">
-          <img src="/investors.jpg" alt="" className="h-auto block max-w-[520px] w-full" />
         </div>
       </div>
 
